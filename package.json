@@ -1,0 +1,10 @@
+{
+    "name": "rasp-2b",
+    "version": "0.1.2",
+    "description": "raspberry board",
+    "author": "Ruff",
+    "ruff":  {
+        "dependencies": {
+        }
+    }
+}
