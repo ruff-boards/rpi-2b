@@ -1,7 +1,7 @@
 {
     "version": "2.0",
-    "id": "rasp-2b",
-    "model": "rasp-2b",
+    "id": "rpi-2b",
+    "model": "rpi-2b",
     "outputs": {
         "vdd-0":  "power/vdd-0",
         "vdd-1":  "power/vdd-1",
@@ -33,8 +33,7 @@
         "gpio-26": "gpio-26/gpio",
         "gpio-20": "gpio-20/gpio",
         "gnd-7"  : "ground/gnd-7",
-        "gpio-21": "gpio-21/gpio",
-        "uart-0" : "uart-0/uart"
+        "gpio-21": "gpio-21/gpio"
     },
     "devices": [
         {

@@ -3,5 +3,5 @@
 ## Usage
 
 ```sh
-rap init --board rasp-2b
+rap init --board rpi-2b
 ```
