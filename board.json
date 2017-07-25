@@ -1,5 +1,6 @@
 {
     "version": "2.0",
+    "featureVersion": "0.1",
     "id": "rpi-2b",
     "model": "rpi-2b",
     "outputs": {
@@ -8,7 +9,6 @@
         "i2c-0":  "i2c-0/i2c",
         "vdd-2":  "power/vdd-2",
         "gnd-0" : "ground/gnd-0",
-        "gpio-4": "gpio4/gpio",
         "uart-0": "uart-0/uart",
         "gnd-1" : "ground/gnd-1",
         "gpio-17": "gpio-17/gpio",
@@ -108,7 +108,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -126,7 +135,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -144,7 +162,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -162,7 +189,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -180,7 +216,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -198,7 +243,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -216,7 +270,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -234,7 +297,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -252,7 +324,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -270,7 +351,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -288,7 +378,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -306,7 +405,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -324,7 +432,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -342,7 +459,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -360,7 +486,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
@@ -378,7 +513,16 @@
             },
             "outputs": {
                 "gpio": {
-                    "type": "gpio"
+                    "type": "gpio",
+                    "features": {
+                        "input": [
+                            "read",
+                            "interrupt"
+                        ],
+                        "output": [
+                            "write"
+                        ]
+                    }
                 }
             }
         },
